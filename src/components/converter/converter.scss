@@ -1,0 +1,75 @@
+@import '../../sass/variables';
+@import '../../sass/globals';
+
+.currency {
+    position: relative;
+
+    .container {
+        display: table;
+        padding: 0;
+        margin: 0;
+        justify-content: space-around;
+        width: 100%;
+
+        .label {
+            font-size: inherit;
+        }
+    }
+
+    .content-row {
+        display: table-row;
+        color: $textcolor;
+        margin: 0 0 5px;
+
+        & p {
+            font-size: 0.8em;
+            margin: 0 0 3px;
+        }
+
+        .item-cell {
+            display: table-cell;
+            vertical-align: top;
+            color: inherit;
+
+            &:first-child {
+                padding-right: 25px;
+            }
+
+            .input-text,
+            .select-item {
+                color: $textcolor;
+                border: 1px solid #c0c0f0;
+                border-radius: 3px;
+                padding: 8px;
+                width: 99%;
+            }
+
+            .select-item {
+                padding: 7px;
+            }
+
+            .ng-invalid {
+                border-color: red;
+            }
+
+            .errors {
+                font-size: 0.7em;
+                color: #de3226;
+            }
+
+            &.link {
+                padding-top: 15px;
+                text-align: right;
+                cursor: pointer;
+
+                .link.disclaimer {
+                    font-size: 0.8em;
+                }
+            }
+        }
+
+        .currency-number {
+            height: 45px;
+        }
+    }
+}

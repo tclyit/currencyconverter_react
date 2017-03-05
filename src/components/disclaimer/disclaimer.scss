@@ -1,0 +1,46 @@
+.disclaimer-rate {
+    position: absolute;
+    font-family: inherit;
+    font-size: 0.8em;
+    top: 5px;
+    left: 2%;
+    background-color: #f0f0f0;
+    border: 1px solid #c0c0c0;
+    box-shadow: 1px 1px 5px #889bb1;
+    z-index: 2;
+
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+
+    /* customize animation fade in */
+    @-webkit-keyframes fadeIn {
+        from { opacity: 0.5; } 
+        to { opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0.5; }
+        to { opacity:1; }
+    }
+
+    h2 {
+        font-size: 1em;
+        margin: 1%;
+    }
+
+    hr {
+        border-color: #ffffff;
+    }
+
+    .disclaimer-container {
+        padding: 0 2% 0;
+    }
+
+    .button-container {
+        padding: 0 0 1% 1%;
+
+        button {
+            padding: 3px 15px 3px;
+        }
+    }
+}

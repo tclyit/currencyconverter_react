@@ -1,0 +1,41 @@
+@import './variables';
+@import './globals';
+
+html, body {
+    font-family: $fontfamily;
+    min-width: 100%;
+    margin: 0;
+
+    .app {
+      .page,
+      .home {
+        .about,
+        .home-container {
+          padding: 1em;
+        }
+
+        nav {
+          background: #c0c0c0;
+          padding: 10px;
+
+          a {
+            &:first-child {
+              font-family: 1.4em;
+            }
+            &:last-child{
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+
+      .show {
+        display: block;
+      }
+
+      .hide {
+        display: none;
+      }
+  }
+}
+

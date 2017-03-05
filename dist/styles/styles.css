@@ -1,0 +1,127 @@
+.disclaimer-rate {
+  position: absolute;
+  font-family: inherit;
+  font-size: 0.8em;
+  top: 5px;
+  left: 2%;
+  background-color: #f0f0f0;
+  border: 1px solid #c0c0c0;
+  box-shadow: 1px 1px 5px #889bb1;
+  z-index: 2;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+  /* customize animation fade in */ }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0.5; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5; }
+  to {
+    opacity: 1; } }
+  .disclaimer-rate h2 {
+    font-size: 1em;
+    margin: 1%; }
+  .disclaimer-rate hr {
+    border-color: #ffffff; }
+  .disclaimer-rate .disclaimer-container {
+    padding: 0 2% 0; }
+  .disclaimer-rate .button-container {
+    padding: 0 0 1% 1%; }
+    .disclaimer-rate .button-container button {
+      padding: 3px 15px 3px; }
+.link {
+  color: #115cd6; }
+
+.currency {
+  position: relative; }
+  .currency .container {
+    display: table;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    width: 100%; }
+    .currency .container .label {
+      font-size: inherit; }
+  .currency .content-row {
+    display: table-row;
+    color: #393e44;
+    margin: 0 0 5px; }
+    .currency .content-row p {
+      font-size: 0.8em;
+      margin: 0 0 3px; }
+    .currency .content-row .item-cell {
+      display: table-cell;
+      vertical-align: top;
+      color: inherit; }
+      .currency .content-row .item-cell:first-child {
+        padding-right: 25px; }
+      .currency .content-row .item-cell .input-text,
+      .currency .content-row .item-cell .select-item {
+        color: #393e44;
+        border: 1px solid #c0c0f0;
+        border-radius: 3px;
+        padding: 8px;
+        width: 99%; }
+      .currency .content-row .item-cell .select-item {
+        padding: 7px; }
+      .currency .content-row .item-cell .ng-invalid {
+        border-color: red; }
+      .currency .content-row .item-cell .errors {
+        font-size: 0.7em;
+        color: #de3226; }
+      .currency .content-row .item-cell.link {
+        padding-top: 15px;
+        text-align: right;
+        cursor: pointer; }
+        .currency .content-row .item-cell.link .link.disclaimer {
+          font-size: 0.8em; }
+    .currency .content-row .currency-number {
+      height: 45px; }
+.content-full {
+  margin-bottom: 20px; }
+
+.content-box {
+  background-color: #f0f0f0; }
+  .content-box > div {
+    display: inline-block;
+    padding: 2%;
+    width: 46%; }
+.link {
+  color: #115cd6; }
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 100%;
+  margin: 0; }
+  html .app .page .about,
+  html .app .page .home-container,
+  html .app .home .about,
+  html .app .home .home-container, body .app .page .about,
+  body .app .page .home-container,
+  body .app .home .about,
+  body .app .home .home-container {
+    padding: 1em; }
+  html .app .page nav,
+  html .app .home nav, body .app .page nav,
+  body .app .home nav {
+    background: #c0c0c0;
+    padding: 10px; }
+    html .app .page nav a:first-child,
+    html .app .home nav a:first-child, body .app .page nav a:first-child,
+    body .app .home nav a:first-child {
+      font-family: 1.4em; }
+    html .app .page nav a:last-child,
+    html .app .home nav a:last-child, body .app .page nav a:last-child,
+    body .app .home nav a:last-child {
+      margin-left: 15px; }
+  html .app .show, body .app .show {
+    display: block; }
+  html .app .hide, body .app .hide {
+    display: none; }
+.link {
+  color: #115cd6; }
