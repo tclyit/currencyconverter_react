@@ -27,7 +27,7 @@ TO DO next:
 - Improving performance and load
 - Test for data, REST API and React components
 - Improve state changes using `Flux` pattern
-- Work with `Webpack` to have clean environment for `Production`
+- Clean up `Webpack` to have live reload properly as now you will need to restart the webpack every time you have changed the work(s) and als to have clean environment for `Production`
 
 Setup:
 
